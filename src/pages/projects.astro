@@ -1,0 +1,34 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Tabs from "../components/Tabs.jsx";
+import Project from "../components/Project.astro";
+---
+
+<Layout title="Daniel Eduardo Yanes | Proyectos">
+  <main class="px-4 py-24 mx-auto max-w-5xl">
+    <Tabs route="/projects">
+      <section class="px-4 mx-auto max-w-7xl">
+        <Project
+          title="Distribuciones Linux Website"
+          description="Un projecto de un sitio web sobre distribuciones linux, creado con Astro 🚀"
+          repositoryURL="https://github.com/EduardYan/distribuciones-linux-website"
+          imgRepositoryUrl="https://raw.githubusercontent.com/EduardYan/distribuciones-linux-website/main/public/imgs/screenshot.png"
+        />
+
+        <Project
+          title="Juego del gato con React"
+          description="Juego del gato 😺 o tres en raya hecho con React."
+          repositoryURL="https://github.com/EduardYan/react-tictac-toe"
+          imgRepositoryUrl="https://raw.githubusercontent.com/EduardYan/react-tictac-toe/main/doc/screenshot.png"
+        />
+
+        <Project
+          title="React show messages"
+          description="Práctica para mostar mensajes hecha con React."
+          repositoryURL="https://github.com/EduardYan/react-show-messages"
+          imgRepositoryUrl="https://github.com/EduardYan/react-show-messages/raw/main/doc/screenshot.png"
+        />
+      </section>
+    </Tabs>
+  </main>
+</Layout>
