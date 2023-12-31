@@ -1,0 +1,49 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="404 ❌">
+  <main class="w-full h-screen flex items-center justify-center">
+    <section class="px-4 py-24 mx-auto max-w-7xl">
+      <div
+        class="grid items-center w-full grid-cols-1 gap-10 mx-auto md:w-4/5 lg:grid-cols-2 xl:gap-32"
+      >
+        <div>
+          <p
+            class="mb-2 text-xs font-semibold tracking-wide text-gray-500 uppercase"
+          >
+            Error 404
+          </p>
+          <h1
+            class="mb-4 text-2xl font-extrabold leading-tight tracking-tight text-left text-gray-900 md:text-4xl"
+          >
+            ¡Ups! La página que estás buscando no está aquí.
+          </h1>
+          <p class="mb-5 text-base text-left text-gray-800 md:text-xl">
+            Es posible que tenga la dirección incorrecta o la página puede haber
+            movido.
+          </p>
+
+          <a
+            class="py-2 px-4 mb-4 bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg"
+            href="/"
+          >
+            Regresar
+          </a>
+
+          <a
+            class="py-2 px-4 mx-4 bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg"
+            href="/contact"
+          >
+            Contacto
+          </a>
+        </div>
+        <img
+          src="/img/404-gif.gif"
+          alt="página no encontrada gif"
+          class="rounded"
+        />
+      </div>
+    </section>
+  </main>
+</Layout>
