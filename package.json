@@ -1,7 +1,14 @@
 {
   "name": "mi-portafolio",
+  "description": "Proyecto de mi portafolio",
   "type": "module",
   "version": "0.0.1",
+  "author": "EduardYan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EduardYan/mi-portafolio"
+  },
+  "license": "MIT",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -10,13 +17,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "0.3.4",
-    "@astrojs/preact": "3.0.2",
+    "@astrojs/check": "0.8.2",
+    "@astrojs/preact": "3.5.1",
     "@astrojs/tailwind": "5.1.0",
-    "astro": "4.0.8",
-    "preact": "10.19.3",
-    "tailwindcss": "3.4.0",
-    "typescript": "5.3.3"
+    "astro": "4.12.2",
+    "preact": "10.22.1",
+    "tailwindcss": "3.4.6",
+    "typescript": "5.5.4"
   },
   "devDependencies": {
     "standard": "17.1.0"
